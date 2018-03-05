@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7696499B204D377F0052124A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696499A204D377F0052124A /* AppDelegate.swift */; };
+		7696499D204D377F0052124A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696499C204D377F0052124A /* ViewController.swift */; };
+		769649A0204D377F0052124A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7696499E204D377F0052124A /* Main.storyboard */; };
+		769649A2204D377F0052124A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769649A1204D377F0052124A /* Assets.xcassets */; };
+		769649A5204D377F0052124A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769649A3204D377F0052124A /* LaunchScreen.storyboard */; };
+		769649B0204D377F0052124A /* Easy_Network_RequesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769649AF204D377F0052124A /* Easy_Network_RequesterTests.swift */; };
+		769649BB204D377F0052124A /* Easy_Network_RequesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769649BA204D377F0052124A /* Easy_Network_RequesterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769649AC204D377F0052124A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7696498F204D377F0052124A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76964996204D377F0052124A;
+			remoteInfo = "Easy Network Requester";
+		};
+		769649B7204D377F0052124A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7696498F204D377F0052124A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76964996204D377F0052124A;
+			remoteInfo = "Easy Network Requester";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76964997204D377F0052124A /* Easy Network Requester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Network Requester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7696499A204D377F0052124A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7696499C204D377F0052124A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7696499F204D377F0052124A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		769649A1204D377F0052124A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769649A4204D377F0052124A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		769649A6204D377F0052124A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769649AB204D377F0052124A /* Easy Network RequesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Network RequesterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		769649AF204D377F0052124A /* Easy_Network_RequesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Network_RequesterTests.swift; sourceTree = "<group>"; };
+		769649B1204D377F0052124A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769649B6204D377F0052124A /* Easy Network RequesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Network RequesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		769649BA204D377F0052124A /* Easy_Network_RequesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Network_RequesterUITests.swift; sourceTree = "<group>"; };
+		769649BC204D377F0052124A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76964994204D377F0052124A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769649A8204D377F0052124A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769649B3204D377F0052124A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7696498E204D377F0052124A = {
+			isa = PBXGroup;
+			children = (
+				76964999204D377F0052124A /* Easy Network Requester */,
+				769649AE204D377F0052124A /* Easy Network RequesterTests */,
+				769649B9204D377F0052124A /* Easy Network RequesterUITests */,
+				76964998204D377F0052124A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76964998204D377F0052124A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76964997204D377F0052124A /* Easy Network Requester.app */,
+				769649AB204D377F0052124A /* Easy Network RequesterTests.xctest */,
+				769649B6204D377F0052124A /* Easy Network RequesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76964999204D377F0052124A /* Easy Network Requester */ = {
+			isa = PBXGroup;
+			children = (
+				7696499A204D377F0052124A /* AppDelegate.swift */,
+				7696499C204D377F0052124A /* ViewController.swift */,
+				7696499E204D377F0052124A /* Main.storyboard */,
+				769649A1204D377F0052124A /* Assets.xcassets */,
+				769649A3204D377F0052124A /* LaunchScreen.storyboard */,
+				769649A6204D377F0052124A /* Info.plist */,
+			);
+			path = "Easy Network Requester";
+			sourceTree = "<group>";
+		};
+		769649AE204D377F0052124A /* Easy Network RequesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				769649AF204D377F0052124A /* Easy_Network_RequesterTests.swift */,
+				769649B1204D377F0052124A /* Info.plist */,
+			);
+			path = "Easy Network RequesterTests";
+			sourceTree = "<group>";
+		};
+		769649B9204D377F0052124A /* Easy Network RequesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				769649BA204D377F0052124A /* Easy_Network_RequesterUITests.swift */,
+				769649BC204D377F0052124A /* Info.plist */,
+			);
+			path = "Easy Network RequesterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76964996204D377F0052124A /* Easy Network Requester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769649BF204D377F0052124A /* Build configuration list for PBXNativeTarget "Easy Network Requester" */;
+			buildPhases = (
+				76964993204D377F0052124A /* Sources */,
+				76964994204D377F0052124A /* Frameworks */,
+				76964995204D377F0052124A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Network Requester";
+			productName = "Easy Network Requester";
+			productReference = 76964997204D377F0052124A /* Easy Network Requester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		769649AA204D377F0052124A /* Easy Network RequesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769649C2204D377F0052124A /* Build configuration list for PBXNativeTarget "Easy Network RequesterTests" */;
+			buildPhases = (
+				769649A7204D377F0052124A /* Sources */,
+				769649A8204D377F0052124A /* Frameworks */,
+				769649A9204D377F0052124A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769649AD204D377F0052124A /* PBXTargetDependency */,
+			);
+			name = "Easy Network RequesterTests";
+			productName = "Easy Network RequesterTests";
+			productReference = 769649AB204D377F0052124A /* Easy Network RequesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769649B5204D377F0052124A /* Easy Network RequesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769649C5204D377F0052124A /* Build configuration list for PBXNativeTarget "Easy Network RequesterUITests" */;
+			buildPhases = (
+				769649B2204D377F0052124A /* Sources */,
+				769649B3204D377F0052124A /* Frameworks */,
+				769649B4204D377F0052124A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769649B8204D377F0052124A /* PBXTargetDependency */,
+			);
+			name = "Easy Network RequesterUITests";
+			productName = "Easy Network RequesterUITests";
+			productReference = 769649B6204D377F0052124A /* Easy Network RequesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7696498F204D377F0052124A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = casenderqiu;
+				TargetAttributes = {
+					76964996204D377F0052124A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					769649AA204D377F0052124A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76964996204D377F0052124A;
+					};
+					769649B5204D377F0052124A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76964996204D377F0052124A;
+					};
+				};
+			};
+			buildConfigurationList = 76964992204D377F0052124A /* Build configuration list for PBXProject "Easy Network Requester" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7696498E204D377F0052124A;
+			productRefGroup = 76964998204D377F0052124A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76964996204D377F0052124A /* Easy Network Requester */,
+				769649AA204D377F0052124A /* Easy Network RequesterTests */,
+				769649B5204D377F0052124A /* Easy Network RequesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76964995204D377F0052124A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769649A5204D377F0052124A /* LaunchScreen.storyboard in Resources */,
+				769649A2204D377F0052124A /* Assets.xcassets in Resources */,
+				769649A0204D377F0052124A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769649A9204D377F0052124A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769649B4204D377F0052124A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76964993204D377F0052124A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7696499D204D377F0052124A /* ViewController.swift in Sources */,
+				7696499B204D377F0052124A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769649A7204D377F0052124A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769649B0204D377F0052124A /* Easy_Network_RequesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769649B2204D377F0052124A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769649BB204D377F0052124A /* Easy_Network_RequesterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769649AD204D377F0052124A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76964996204D377F0052124A /* Easy Network Requester */;
+			targetProxy = 769649AC204D377F0052124A /* PBXContainerItemProxy */;
+		};
+		769649B8204D377F0052124A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76964996204D377F0052124A /* Easy Network Requester */;
+			targetProxy = 769649B7204D377F0052124A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7696499E204D377F0052124A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7696499F204D377F0052124A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		769649A3204D377F0052124A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769649A4204D377F0052124A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		769649BD204D377F0052124A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		769649BE204D377F0052124A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769649C0204D377F0052124A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A35F652F7;
+				INFOPLIST_FILE = "Easy Network Requester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casenderqiu.swift.Easy-Network-Requester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		769649C1204D377F0052124A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A35F652F7;
+				INFOPLIST_FILE = "Easy Network Requester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casenderqiu.swift.Easy-Network-Requester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		769649C3204D377F0052124A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A35F652F7;
+				INFOPLIST_FILE = "Easy Network RequesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casenderqiu.swift.Easy-Network-RequesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Network Requester.app/Easy Network Requester";
+			};
+			name = Debug;
+		};
+		769649C4204D377F0052124A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A35F652F7;
+				INFOPLIST_FILE = "Easy Network RequesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casenderqiu.swift.Easy-Network-RequesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Network Requester.app/Easy Network Requester";
+			};
+			name = Release;
+		};
+		769649C6204D377F0052124A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A35F652F7;
+				INFOPLIST_FILE = "Easy Network RequesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casenderqiu.swift.Easy-Network-RequesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy Network Requester";
+			};
+			name = Debug;
+		};
+		769649C7204D377F0052124A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A35F652F7;
+				INFOPLIST_FILE = "Easy Network RequesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casenderqiu.swift.Easy-Network-RequesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy Network Requester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76964992204D377F0052124A /* Build configuration list for PBXProject "Easy Network Requester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769649BD204D377F0052124A /* Debug */,
+				769649BE204D377F0052124A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769649BF204D377F0052124A /* Build configuration list for PBXNativeTarget "Easy Network Requester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769649C0204D377F0052124A /* Debug */,
+				769649C1204D377F0052124A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769649C2204D377F0052124A /* Build configuration list for PBXNativeTarget "Easy Network RequesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769649C3204D377F0052124A /* Debug */,
+				769649C4204D377F0052124A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769649C5204D377F0052124A /* Build configuration list for PBXNativeTarget "Easy Network RequesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769649C6204D377F0052124A /* Debug */,
+				769649C7204D377F0052124A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7696498F204D377F0052124A /* Project object */;
+}
