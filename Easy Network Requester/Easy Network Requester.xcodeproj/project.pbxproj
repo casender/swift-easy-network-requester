@@ -14,6 +14,8 @@
 		769649A5204D377F0052124A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769649A3204D377F0052124A /* LaunchScreen.storyboard */; };
 		769649B0204D377F0052124A /* Easy_Network_RequesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769649AF204D377F0052124A /* Easy_Network_RequesterTests.swift */; };
 		769649BB204D377F0052124A /* Easy_Network_RequesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769649BA204D377F0052124A /* Easy_Network_RequesterUITests.swift */; };
+		769649C9204D388F0052124A /* EasyNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769649C8204D388F0052124A /* EasyNetworkManager.swift */; };
+		769649CB204D38CD0052124A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769649CA204D38CD0052124A /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		769649B6204D377F0052124A /* Easy Network RequesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Network RequesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		769649BA204D377F0052124A /* Easy_Network_RequesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Network_RequesterUITests.swift; sourceTree = "<group>"; };
 		769649BC204D377F0052124A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769649C8204D388F0052124A /* EasyNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNetworkManager.swift; sourceTree = "<group>"; };
+		769649CA204D38CD0052124A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7696499A204D377F0052124A /* AppDelegate.swift */,
 				7696499C204D377F0052124A /* ViewController.swift */,
 				7696499E204D377F0052124A /* Main.storyboard */,
+				769649C8204D388F0052124A /* EasyNetworkManager.swift */,
+				769649CA204D38CD0052124A /* Result.swift */,
 				769649A1204D377F0052124A /* Assets.xcassets */,
 				769649A3204D377F0052124A /* LaunchScreen.storyboard */,
 				769649A6204D377F0052124A /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7696499D204D377F0052124A /* ViewController.swift in Sources */,
+				769649C9204D388F0052124A /* EasyNetworkManager.swift in Sources */,
+				769649CB204D38CD0052124A /* Result.swift in Sources */,
 				7696499B204D377F0052124A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
